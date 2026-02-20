@@ -20,14 +20,12 @@
     <build>
         <plugins>
 
-            <!-- Compile Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
             </plugin>
 
-            <!-- Make Executable Jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -43,5 +41,13 @@
 
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>jfrog</id>
+            <name>JFrog Releases</name>
+            <url>https://YOUR_JFROG_URL.jfrog.io/artifactory/maven-releases</url>
+        </repository>
+    </distributionManagement>
 
 </project>
