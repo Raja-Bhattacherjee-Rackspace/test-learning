@@ -46,7 +46,7 @@
         <repository>
             <id>jfrog</id>
             <name>JFrog Releases</name>
-            <url>https://YOUR_JFROG_URL.jfrog.io/artifactory/maven-releases</url>
+            <url>https://trialeeb8c3.jfrog.io/artifactory/maven-releases</url>
         </repository>
     </distributionManagement>
 
